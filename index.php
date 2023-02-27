@@ -48,7 +48,7 @@ print $food . '<br>'; // Rice
 $food = print('Launch') . '<br>'; // Launch
 echo $food; . '<br>'; // 1 
 */
-
+/*
 // php data type 
 $name = 'Nurul Islam'; // string
 $name = "It's me";   // string
@@ -60,10 +60,25 @@ $class = array('one', 'two', 'three'); // array(3) { [0]=> string(3) "one" [1]=>
 $null = null; // NULL (no output come and not a blank)
 
 var_dump($null)
-
-
-
 // N.B(In js console.log() === In php var_dump()) 
+*/
+
+// Object
+class Phone {
+    var $model;
+    function phoneModel ($number){
+        global $model;
+        $model = $number;
+        echo "This is $model <br>";
+    }
+}
+$apple = new Phone;
+$apple-> phoneModel('iPhone 14'); // This is iPhone 14
+$samsung = new Phone;
+$samsung-> phoneModel('S23 Ultra'); // This is S23 Ultra
+$lg = new Phone;
+$lg-> phoneModel('Not coming'); // This is Not coming
+
     ?>
 
 </body>
