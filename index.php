@@ -62,7 +62,7 @@ $null = null; // NULL (no output come and not a blank)
 var_dump($null)
 // N.B(In js console.log() === In php var_dump()) 
 */
-
+/*
 // Object
 class Phone {
     var $model;
@@ -78,6 +78,24 @@ $samsung = new Phone;
 $samsung-> phoneModel('S23 Ultra'); // This is S23 Ultra
 $lg = new Phone;
 $lg-> phoneModel('Not coming'); // This is Not coming
+*/
+/*
+// php String
+echo strlen('I love to eat Orange') . '<br>'; // 20 
+echo str_word_count('I love to eat Orange') . '<br>'; // 5 
+echo strrev('I love to eat Orange') . '<br>'; // egnarO tae ot evol I (reverse)
+echo strpos('I love to eat Orange', 'eat') . '<br>'; // 10 (position)
+echo strpos('I love to eat Orange', 'ate') . '<br>'; //  (no output, because not exist ate in the string)
+$fruits = strpos('I love to eat Orange', 'grape'); 
+var_dump($fruits); //  bool(false)
+$fruits = strpos('I love to eat Orange', 'to');
+var_dump($fruits); //  int(7) 
+
+echo str_replace('Orange', 'grape', 'I love to eat Orange') . '<br>'; // I love to eat grape
+*/
+
+// php number 
+
 
     ?>
 
