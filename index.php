@@ -94,7 +94,22 @@ var_dump($fruits); //  int(7)
 echo str_replace('Orange', 'grape', 'I love to eat Orange') . '<br>'; // I love to eat grape
 */
 
-// php number 
+// php Math
+echo (pi()) . '<br>'; // 3.1415926535898 
+echo (min(80, 20, 70, 10, 5, 40)) . '<br>'; // 5
+echo (max(60, 20, 70, 10, 5, 40)) . '<br>'; // 70
+echo (abs(10)) . '<br>'; // 10 
+echo (abs(-10)) . '<br>'; // 10
+echo (abs(10.5)) . '<br>'; // 10.5 
+echo (sqrt(25)) . '<br>'; // 5
+echo (sqrt(-25)) . '<br>'; // NAN 
+echo (sqrt(24)) . '<br>'; // 4.8989794855664
+echo (round(pi())) . '<br>'; // 3 
+echo (rand()) . '<br>'; // // 9 digit random number show 
+echo (rand(5, 10)) . '<br>'; // // 1 to 2 digit random number show 
+
+// $x = 10;
+// $y = 15;
 
 
     ?>
